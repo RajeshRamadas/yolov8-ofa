@@ -1,0 +1,16 @@
+data_path: D:\personal\study_Sem1\Thesis\Learning\OFA\OFA_YOLO\shapes\data.yaml
+depth_scales:
+- 0.33
+- 0.67
+- 1.0
+input_sizes:
+- 160
+- 320
+- 480
+model_name: yolov8n
+pretrained: true
+width_scales:
+- 0.25
+- 0.5
+- 0.75
+- 1.0

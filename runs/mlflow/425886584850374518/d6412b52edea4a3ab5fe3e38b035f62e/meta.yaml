@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/personal/study_Sem1/Thesis/Learning/OFA/OFA_YOLO/runs/mlflow/425886584850374518/d6412b52edea4a3ab5fe3e38b035f62e/artifacts
+end_time: 1741791660853
+entry_point_name: ''
+experiment_id: '425886584850374518'
+lifecycle_stage: active
+run_id: d6412b52edea4a3ab5fe3e38b035f62e
+run_name: optimal_run
+run_uuid: d6412b52edea4a3ab5fe3e38b035f62e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741788708537
+status: 3
+tags: []
+user_id: uie65064

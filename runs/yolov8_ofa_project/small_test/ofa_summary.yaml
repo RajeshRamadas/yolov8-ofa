@@ -1,0 +1,121 @@
+Best mAP50: !!python/object/apply:numpy.core.multiarray.scalar
+- &id001 !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  qNbQBxLA7z8=
+Best mAP50 Config:
+  depth_scale: 1.0
+  flops: 0
+  inference_time: 0.05021491000001333
+  input_size: 480
+  mAP50: 0.9921960976268638
+  mAP50-95: 0.9821908146710987
+  params_count: 0
+  precision: &id003 !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - &id002 !!python/name:numpy.ndarray ''
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 4
+    - *id001
+    - false
+    - !!binary |
+      gRK2pqWk7z9RWtJlfiHvP8Okogi3ju4/wgx3ovNp7z8=
+  recall: &id004 !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id002
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 4
+    - *id001
+    - false
+    - !!binary |
+      nPo9t8Sp7z8q8lk3mCLvPwAAAAAAAPA/AAAAAAAA8D8=
+  width_scale: 1.0
+Best mAP50-95: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  +DRubhtu7z8=
+Best mAP50-95 Config:
+  depth_scale: 1.0
+  flops: 0
+  inference_time: 0.05021491000001333
+  input_size: 480
+  mAP50: 0.9921960976268638
+  mAP50-95: 0.9821908146710987
+  params_count: 0
+  precision: *id003
+  recall: *id004
+  width_scale: 1.0
+Fastest Config:
+  depth_scale: 1.0
+  flops: 0
+  inference_time: 0.009622099999996863
+  input_size: 160
+  mAP50: 0.9108473162739799
+  mAP50-95: 0.8472983535355911
+  params_count: 0
+  precision: &id005 !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id002
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 4
+    - *id001
+    - false
+    - !!binary |
+      LKmNGyjP7z8tqfRizhXvPzVeVKlYxuk/FLyaFHmA6D8=
+  recall: &id006 !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id002
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 4
+    - *id001
+    - false
+    - !!binary |
+      1e+5JU797j991g2myGftP1kZvhEFJu0/ObuFX42J5D8=
+  width_scale: 1.0
+Smallest Config:
+  depth_scale: 1.0
+  flops: 0
+  inference_time: 0.009622099999996863
+  input_size: 160
+  mAP50: 0.9108473162739799
+  mAP50-95: 0.8472983535355911
+  params_count: 0
+  precision: *id005
+  recall: *id006
+  width_scale: 1.0
