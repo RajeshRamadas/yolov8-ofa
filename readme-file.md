@@ -77,7 +77,7 @@ This script:
 ### Video Analysis and Processing
 
 ```bash
-python video_inference.py
+python inferance_video.py
 ```
 
 This script:
@@ -95,7 +95,7 @@ This script:
 yolov8-ofa/
 ├── yolov8_ofa_training.py     # Main training script
 ├── inference.py               # Image inference and performance visualization
-├── video_inference.py         # Video benchmarking and processing
+├── inferance_video.py         # Video benchmarking and processing
 ├── requirements.txt           # Dependencies
 └── README.md                  # This file
 ```
